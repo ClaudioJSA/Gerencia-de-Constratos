@@ -15,7 +15,17 @@ public class Contrato {
     private Long id;
     private String redacao;
     private LocalDate ultimaatualizacao;
+    private Cliente cliente;
 
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
+
+    
     public Long getId() {
         return id;
     }
